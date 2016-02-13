@@ -14,26 +14,31 @@ On linux? Use [GitKraken](http://www.gitkraken.com/). [It is still in beta thoug
 
 ### IDE
 
+[IntelliJ](https://www.jetbrains.com/idea/ )  
 If you haven't done so already. I would highly recommend you check out IntelliJ. This IDE works a lot better with cloning and importing your git project.
 
 ### How does this guide work?
 Many people have described git in many ways. This is a collection of articles. Hopefully put into an order where you get the most of every tutorial. For every link I recommend until how long you should read. However if you like it, you are welcome to keep reading.
 
-https://www.codecademy.com/learn/learn-git
+[CodeCademy course](https://www.codecademy.com/learn/learn-git)  
 Besides this guide, there is also a Codecademy course about git
 What is git and how does it use version control
 
 ### GitHub account
 
-[A giant GitHub guide](http://blog.pluralsight.com/github-tutorial)
+[A giant GitHub guide](http://blog.pluralsight.com/github-tutorial)  
 You have to create a github account for this course. You can read this giant guide and you will be up to date with everything.
 
-[GitHub help page](https://help.github.com/)
+[GitHub help page](https://help.github.com/)  
 If you have problems with GitHub, you can search this help page for a solution.
 
 ### Other
-https://education.github.com/pack  
+[GitHub education pack](https://education.github.com/pack)  
 Free stuff. Awesome, right!
+
+## Rule #1: Git is hard
+Don’t worry if you don’t understand it all in one go. It gets better with time.
+
 
 ## What is git and how does it use version control
 [Git Magic: Chapter 1](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch01.html)  
@@ -47,28 +52,29 @@ What are the ideas behind git?
 [Learn git branching: First 4 levels](http://pcottle.github.io/learnGitBranching/)  
 Try a few git commands. Don’t worry if you don’t remember the exact commands. SourceTree will have buttons for it and handle the exact code in the background.
 
-https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell  
+[Atlassian: Branching](https://www.atlassian.com/git/tutorials/using-branches)   
 What were those branches?
 
-https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts  
+[Git Book: Merge Conflicts](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts)  
 When combining stuff, it might not always go to plan.
 
-https://www.atlassian.com/git/tutorials/undoing-changes/git-reset  
+[Atlassian: Reset](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)  
 These changes are not going to work out. It isn’t me, it’s you.
 
-http://gitready.com/beginner/2009/01/10/stashing-your-changes.html  
+[GitReady: Stashing](http://gitready.com/beginner/2009/01/10/stashing-your-changes.html)  
 Stashing. How to put your code to the side for a while.
 
-https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files  
-.gitignore is very important to you too. Many eclipse files need to be excluded, just like all the compiled files in your bin folder. (Nobody will want to see these changes).  P.S. GitHub can also create a standard gitignore for you.
+[The git book: Ignoring Files ](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files)   
+.gitignore is really useful. No longer accidentally commit files you shouldn't add. Many eclipse files need to be excluded, just like all the compiled files in your bin folder. (Nobody will want to see these changes).  P.S. GitHub can also create a standard gitignore for you.
 
-![standard git committing](https://qeme4g-sn3301.files.1drv.com/y3pPRaYV2vMs1SiNPqP2x5E4kmUxlhx2OprNUrGnOVTwSDoV9A1MJ1Gp9VVjefB4b4rG9c96_8aEOVShQIvy0__Ejm0jz7wY7rvCzWj7TAAdsu1kBAEjPhL0M6b0RlKgxIE/Git-HowTo.png?psid=1)
+![standard git committing](https://raw.githubusercontent.com/newnottakenname/Guides/master/Git/Git-HowTo.png)
+
+
+[Git fundamentals](https://www.youtube.com/watch?v=sevc6668cQ0)  
+So now you know what git is and how it can be used. Now it is time to go deeper and learn how git works on a lower level. The talk is 46 minutes long, but really helpful. For instance, you will learn why it is not good practice to push large files to git.
 
 https://try.github.io/levels/1/challenges/1  
 If you still feel like you don't know everything, you can also try this tutorial from GitHub.
-
-## Git is hard
-Don’t worry if you don’t understand it all in one go. It gets better with time.
 
 ## Workflow (Optional, but makes your life easier)
 Ok, I now know how people work with git. How should I be applying it?  
@@ -121,8 +127,6 @@ https://trello.com
 The allround best way to use when you don’t use GitHub.
 
 # Cool stuff (Extra)
-[IntelliJ](https://www.jetbrains.com/idea/ )  
-A better and more beautiful version of Eclipse
 
 [Travis CI](https://travis-ci.org/)  
 No-one wants to see if your tests are succeeding by pulling your branch and locally running the tests. This service will take all your commits and run tests on them. Great for annoying your teammates that their tests are not succeeding.
